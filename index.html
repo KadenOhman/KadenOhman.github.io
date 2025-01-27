@@ -1,109 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kaden Ohman</title>
     <style>
-        body{
-            background-color: blanchedalmond;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        header{
-            width: 100%;
-            height: 80px;
-            position: relative;
-        }
-        .leftSide{
-            width: 40%;
-            left: 5%;
-            position: absolute;
 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
         }
-        .rightSide{
-            width: 40%;
-            left: 55%;
-            position: absolute;
 
+        header {
+            text-align: center;
+            margin-bottom: 40px;
         }
-        .bottom{
-            position: absolute;
-            bottom: 8px;
-            left: 5%;
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
-    <body>
-        <header style="text-align: center;">
-            <h1>Unity Blog</h1>
-            <h2>Kaden Ohman</h2>
-        </header>
-        <div class="leftSide">
-            <h2>Summary:</h2>
-            <p>
-                Unity is one of the most popular game engines today that are used to create 2D and 3D games for a variety of platforms. 
-                it has cross platform support which allows developers to create games not only for PC but also consoles such as the PS5, Xbox and Nintendo Switchl.
-                Unity also has a large community of developers who have created plugins and assets that can be used to extend the engine's capabilities. 
-                It comes with its own physics engine, allows scripting in multiple coding languages and has a tutorial and learning scenarios for ease of use for new developers and experienced devs
-                Overall, Unity is a powerful and versatile game engine that is a popular choice for game developers.
-            </p>
+</head>
+<body>
+    <header>
+        <h1>Kaden Ohman</h1>
+        <p>Software Developer | Database Administrator | Web Developer | Data Science | Problem-Solver | Data Management | Machine Learning Algorithms</p>
+    </header>
 
-            <h2>Features:</h2>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>I am a passionate Data Scientist, Software Developer, and Web Developer. </p>
+        </section>
 
-            <p>
-                
-                1.<b>Cross-platform support</b><br>
-                2.<b>Physics engine</b><br>
-                3.<b>Asset store</b><br>
-                4.<b>Support for multiple languages</b><br>
-                5.<b>Real-time rendering</b><br>
-                6.<b>Multiplayer support</b><br>
-                7.<b>Virtual and augmented reality support</b><br>
-                8.<b>Tutorial and premade templates to help support beginners</b>
-            </p>
-            <h2>Unity Background components:</h2>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Proficient in programming languages such as Python, SQL, Java, and C++.</li>
+                <li>Experience in building and managing databases for structured data storage and retrieval.</li>
+                <li>Familiarity with machine learning algorithms such as regression and decision trees.</li>
+                <li>Hands-on experience with web development using HTML, CSS, and JavaScript to create user-friendly interfaces for data-driven applications.</li>
+				<li>Effective communicator and strong team collaborator, with the ability to work independently, prioritize tasks, and meet deadlines in fast-paced environments.</li>
+				<li>Detail-oriented problem solver with the ability to create simple, and effective solutions.</li>
+            </ul>
+        </section>
 
-            <p>
-                <b>C++:</b> Unity engine is primarily written in C++. C++ is a powerful, high-level genral purpose programming language that is what is used to build the Unity Engine <br>
-                <b>OpenGL and DirectX:</b> Unity uses OpenGL and DirectX to interact with the graphics hardware and render 2D and 3D graphics on the screen. <br>
-                <b>PhysX:</b> Unity uses PhysX, a physics simulation engine developed by NVIDIA, to simulate physics interactions in the game world. This includes things like collisions, gravity, and object movement.<br>
-                <b>Audio Engine:</b> Unity has a built-in audio engine that allows developers to create and manipulate audio in the game world. The audio engine uses low-level APIs such as OpenAL interact with the hardware.<br>
-                <b>Deployment:</b> Unity also comes with a built in feature that allows users to build and deploy their game or application on Unity's own store page that allows the user to share their project with anyone<br>
-                <b>Editor:</b> Finally, Unity includes a powerful and fairly simple but not too simple editor that allows developers to create and manipulate game objects, adjust game settings, and perform a wide variety of other tasks related to game development.<br>
-                
-            </p>
-        </div>
-        <div class="rightSide">
-            <h2>Use in Film and Animations:</h2>
-            <p>
-                While Unity is primarily known as a game engine, it has also been used in the film and animation industries to create immersive experiences, visual effects, and interactive content. 
-                Some of the ways Unity is used in film and animation include: <br><br>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>(2023) Helix-Scheduling:</strong> Developed a web-based scheduling system with a College Team, integrating front-end and back-end components using JavaScript and SQL. <a href="https://github.com/KadenOhman/HelixScheduling">View Project</a></li>
+                <li><strong>(2025) Travel Agency:</strong> Developed a Database for a Travel Agency with a College Team, giving them the oppurtunity to move from their physical records to more secure digital records.</li>
+            </ul>
+        </section>
 
-                <b>Previsualization:</b> Unity can be used to create 3D models and environments that can be used for previsualization, allowing filmmakers to visualize complex scenes before filming them. This can help save time and money during the production process.<br>
-                
-                <b>Real-time rendering:</b> Unity's real-time rendering capabilities make it an ideal tool for creating animated content. Animators can create 3D models and animations and see the results in real-time, allowing for faster iteration and development of the final product. <br>
-                
-                <b>Interactive experiences:</b> Unity can be used to create interactive experiences for film and animation audiences. This can include interactive 3D environments or augmented reality experiences that allow viewers to engage with the content in new and exciting ways. <br>
-                
-                <b>Visual effects:</b> Unity's physics engine and particle system can be used to create realistic visual effects, such as explosions or water simulations, that can be integrated into films or animations.  <br>
-                
-                <b>Training and education:</b> Unity can be used to create educational content, such as interactive simulations or virtual reality experiences. This can be used to train employees or educate students in a variety of fields. <br><br>
-                
-                Overall, Unity's versatility and ease of use make it a valuable tool for filmmakers and animators looking to create immersive experiences and interactive content. 
-                Its real-time rendering, physics engine, and cross-platform support make it a great choice for creating high-quality visual effects and engaging content.
-            </p>
-            <h2>Conclusion:</h2>
+        <section>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:kaden3002@gmail.com">kaden3002@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/KadenOhman" target="_blank">github.com/KadenOhman</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/kadenohman/" target="_blank">linkedin.com/in/kadenohman/</a></p>
+        </section>
+    </div>
 
-            <p>
-                Unity has not only had a significant impact on the game development industry but also the film and animation industry. The engine's ability to create high-quality, real-time 3D graphics has made it an attractive tool for filmmakers and animators. With Unity, filmmakers and animators can create pre-visualization shots, virtual sets, and even entire films. The engine's real-time rendering capabilities have also made it easier to create interactive, immersive experiences that blur the line between film and gaming.
-                As Unity continues to evolve, we can expect to see even more crossover between the gaming, film, and animation industries. Unity has already become an essential tool for game developers, and as it continues to gain popularity in other industries, we can expect to see even more innovative uses of the engine. Whether you are a game developer, filmmaker, or animator, Unity is a tool that you cannot afford to ignore.
-            </p>
-
-        </div>
-
-        <div class="bottom">
-            <h2>My intent for this blog:</h2>
-            <p>This blog I intend in the end to show off a game or some sort of project I have made using the unity engine and show how I went about making it and struggles I enocuntered along the way. 
-                This blog post is for me to show my research that I have conducted on the unity engine and inform whoever the reader may be.
-                my next blog post I hope to actually show off the UI, how everything works and also show off the production of whatever I decide to make whether it is a game or maybe even an animation. 
-                That post will include images to show my progress and possibly even videos of the me working. if it is a game I will also provide a link to let those who read this play the game if they would like.
-                (Im also aware this blog post may not look great. I didnt put much effort into the look of it, if I get a chance I may try and improve the look.)
-            </p>
-        </div>
-        
-    </body>
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
 </html>
